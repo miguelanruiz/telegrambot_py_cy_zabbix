@@ -1,0 +1,18 @@
+<data>
+    <bot>
+    <token>ID:TOKEN</token>
+    </bot>
+    <users>
+        <user name="Juan">57300000000,telegram.bot.client,admin1,https://imagunet.com/zabbix/</user>
+    </users>
+    <config>
+        <logFile>WARNING</logFile>
+        <inventory>name,os,location,hw_arch,location_lat,location_lon,poc_2_name,notes</inventory>
+    </config>
+    <sender>
+        <enable>True</enable>
+        <proto>telegram.status[{NAME}]</proto>
+        <host>Imagu-TelegramBot</host>
+        <keys>host,graph,trend,history,inventory,problems,availability_report,top_100,problems_general,login</keys>
+    </sender>
+</data>

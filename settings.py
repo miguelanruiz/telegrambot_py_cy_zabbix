@@ -29,7 +29,6 @@ else:
 USERS: Any = None
 LOG_TYPE: Any = None 
 LOGGER: Any = None
-TOKEN = '1664021524:AAElacpxdP1DHSZWUGN3rrEahp1XKgVpF28'
 
 def SETTINGS(ZabbixController: Any):
     global LOG_TYPE, TOKEN, USERS, LOGGER, PATH_LOG_FILE

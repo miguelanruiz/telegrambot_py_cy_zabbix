@@ -1,0 +1,14 @@
+[Unit]
+Description=telegrambot
+After=multi-user.target
+Conflicts=getty@tty1.service
+
+[Service]
+Type=simple
+ExecStart=/usr/sbin/telegrambot
+StandardInput=tty-force
+RestartSec=10s
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
